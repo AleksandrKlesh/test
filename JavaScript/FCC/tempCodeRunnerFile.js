@@ -1,1 +1,1 @@
-node objProperWithVariables.js
+node gettersSettersControlAccessObject.js
