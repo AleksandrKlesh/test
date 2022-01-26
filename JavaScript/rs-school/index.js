@@ -21,14 +21,16 @@
 
 //Objects
 
-const obj = {
-  a: 5,
-  hello: "hello",
-};
+// const obj = {
+//   a: 5,
+//   hello: "hello",
+// };
 
-const obj0 = new Object();
+// const obj0 = new Object();
 
 // console.log(obj.a, obj.hello);
+
+//          array
 
 // const arr = new Array(5).fill(6);
 // const arr0 = ["s", { a: 4 }, 7];
@@ -36,6 +38,8 @@ const obj0 = new Object();
 // const arr = ["k", { a: 4 }, 7];
 
 // console.log(arr);
+
+//           map
 
 // const map = new Map();
 // console.log(map);
@@ -57,18 +61,110 @@ const obj0 = new Object();
 
 // console.log(date.getFullYear());
 
-// function
+//          function
 
-function func0() {
-  console.log("func0");
-  return "664942"; // or undefined without return
+// function func0() {
+//   console.log("func0");
+//   return "664942"; // or undefined without return
+// }
+
+// func0();
+
+// function func1() {
+//   console.log("func0 dsgdgd:");
+//   return "664942"; // or undefined without return
+// }
+
+// func1();
+
+//             Strings
+
+// function oldStyleFunc(a, b, c) {
+//   return a + b + c;
+// }
+
+// const arrowFunc = (d, e) => {
+//   // return `$(d) + $(e)`;
+//   return d + e;
+// };
+
+// const str = `str`;
+
+// console.log(arrowFunc("John", " Smith"));
+
+// function oldStyleFunc(a, b, c) {
+//   return a + b + c;
+// }
+
+// console.log("- How are you doing?\n- I'm fine");
+
+//          Boolean
+
+// console.log(true);
+// console.log(false);
+// console.log(5 < 6);
+// console.log(5 > 6);
+// console.log(5 === 5);
+// console.log(5 == "5");
+// console.log(5 !== "5");
+// console.log(5 != "5");
+
+// console.log(5 || 6);
+// console.log(undefined || 6);
+// console.log(undefined || "5555");
+// console.log(null || "5555");
+
+// let a = undefined;
+
+// let b = null;
+
+// console.log(a || b);
+// console.log(b || a);
+// console.log(b || 5);
+
+//          || &&
+
+// console.log(false && true);
+
+// let isShow = true;
+
+// console.log(isShow);
+
+// console.log(isShow && "comp");
+
+// console.log((isShow = false));
+
+// console.log(isShow && "comp");
+
+//            ??
+
+// console.log(null ?? 5);
+
+// console.log(undefined ?? 5);
+
+// console.log(0 || 5);
+
+// console.log(0 ?? 5);
+
+//         !6
+
+// console.log(!6);
+
+// console.log(!true);
+// console.log(!false);
+// console.log(!!5);
+// console.log(!!"fffff");
+
+//        function
+
+function func(arg0, argFunc) {
+  return argFunc(arg0);
 }
 
-func0();
+console.log(func(5, (x) => x + 1));
 
-function func1() {
-  console.log("func0 dsgdgd:");
-  return "664942"; // or undefined without return
-}
+const arrF = (arg0, argFunc) => {
+  return argFunc(arg0);
+};
 
-func1();
+console.log(func(5, (x) => x + 1));
