@@ -193,12 +193,110 @@
 
 //              if
 
-function plur(word, quantity) {
-  if (quantity > 1) {
-    return `${quantity} ${word}s`;
-  }
-  return `${quantity} ${word}`;
-}
+// function plur(word, quantity) {
+//   if (quantity > 1) {
+//     return `${quantity} ${word}s`;
+//   }
+//   return `${quantity} ${word}`;
+// }
 
-console.log(plur("user", 1));
-console.log(plur("user", 6));
+// console.log(plur("user", 1));
+// console.log(plur("user", 6));
+
+//   if (document.validated === "fully") {
+//     document.status = "validated";
+//   } else if (document.validated === "half") {
+//     document.status === "half validated";
+//   } else {
+//     document.status = "not validated";
+//   }
+// }
+
+// function setStatus(document) {
+//   switch (document.validated) {
+//     case 'fully':
+//       document.status = 'validated'
+//       break;
+
+//       case 'half':
+//       document.status = 'half validated'
+//       break;
+
+//     default:
+//       document.status === "not validated";
+//       break;
+//   }
+
+//   const doc0 = {
+//     validated: "fully",
+//   };
+
+//   const result = setStatus(doc0);
+
+// console.log(result);
+
+//          Ternary operator
+
+// const a = true ? "000" : "6666";
+// const b = false ? "000" : "6666";
+
+// console.log(a, b);
+
+// const isShow = 6 > 8;
+// const a = isShow ? "000" : "6666";
+
+// console.log(a, isShow);
+
+//               While
+
+// const max = 5;
+// let i = 0;
+
+// while (i < max) {
+//   i++;
+//   console.log("i: ", i);
+// }
+
+// const max = 5;
+// let i = 0;
+
+// function a() {
+//   while (i < max) {
+//     i++;
+//     console.log("i: ", i);
+//     if (i === 3) {
+//       return;
+//     }
+//   }
+// }
+
+// a();
+
+//                For
+
+// const f = () => {
+//   for (let i = 0; i < 10; i++) {
+//     console.log(i);
+//   }
+// };
+
+// f();
+
+//               Reduce
+
+// const arr = ["My", "name", "is", "Santa"];
+
+// const reducer = (prev, curr) => `${prev} ${curr}`;
+
+// console.log(arr.reduce(reducer, ""));
+
+// const arr = ["My", "name", "is", "Santa"];
+
+// const reducer = (prev, curr) => {
+//   console.log("/n");
+//   console.log(curr);
+//   console.log(prev);
+//   return `${prev} ${curr}`;
+// };
+
+// console.log(arr.reduce(reducer, ""));
