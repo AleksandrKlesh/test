@@ -157,14 +157,48 @@
 
 //        function
 
-function func(arg0, argFunc) {
-  return argFunc(arg0);
+// function func(arg0, argFunc) {
+//   return argFunc(arg0);
+// }
+
+// console.log(func(5, (x) => x + 1));
+
+// const arrF = (arg0, argFunc) => {
+//   return argFunc(arg0);
+// };
+
+// console.log(arrF(5, (x) => x + 15));
+
+//           Math
+
+// const max = Math.abs(-4);
+// console.log(max);
+
+//           Properties and methods
+
+// const arr = [1, 2, 3, "4"];
+// const arr1 = arr.push("5");
+
+// console.log(arr1, arr);
+
+// const arr = [1, 2, 3, "4"];
+// const arr1 = arr.join(", fsdffs");
+
+// console.log(arr, arr1);
+
+// const arr = [1, 2, 3, "4"];
+// const mapped = arr.map((item, index) => `${item} - ${index}`);
+
+// console.log(arr, mapped.length);
+
+//              if
+
+function plur(word, quantity) {
+  if (quantity > 1) {
+    return `${quantity} ${word}s`;
+  }
+  return `${quantity} ${word}`;
 }
 
-console.log(func(5, (x) => x + 1));
-
-const arrF = (arg0, argFunc) => {
-  return argFunc(arg0);
-};
-
-console.log(func(5, (x) => x + 1));
+console.log(plur("user", 1));
+console.log(plur("user", 6));
