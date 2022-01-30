@@ -159,15 +159,15 @@
 // const result = comparitionAdv(20);
 // console.log(result);
 
-const comparition = (a) => {
-  if (a > 0) {
-    return "more than zero";
-  } else if (a === 0) {
-    return "eaual 0";
-  } else {
-    return "less than 0";
-  }
-};
+// const comparition = (a) => {
+//   if (a > 0) {
+//     return "more than zero";
+//   } else if (a === 0) {
+//     return "eaual 0";
+//   } else {
+//     return "less than 0";
+//   }
+// };
 
 // const result = comparition(-5);
 // console.log(result);
@@ -187,3 +187,21 @@ const comparition = (a) => {
 // const result = comparitionSwitch(20);
 
 //            for
+
+// const comparison = (a) => {
+//   for (let i = 0; i < a; i++) {
+//     console.log(i);
+//   }
+// };
+
+// comparison(5);
+
+//        do while
+
+// const comparison = (a) => {
+//   let i = 0;
+//   do {
+//     i = i + 1;
+//     result = result + i;
+//   } while (i < 5);
+// };
