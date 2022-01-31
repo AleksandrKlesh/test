@@ -225,3 +225,50 @@
 // };
 
 // console.log(student.myScore());
+
+// const student = {
+//   name: 'Valera',
+//   email: 'valera1991@gmail.com',
+//   score: {
+//     task1: 90,
+//     task: 50,
+//   },
+// };
+
+//            spread operator...
+
+// const name = student.name;
+
+// const { name } = student
+
+// const students = [student, student, student];
+
+// const studentsWithTotal = students.map((value) => {
+//   value.totalScore = value.score.task1 + value.score.task;
+//   return value;
+// });
+
+// // const studentsWithTotal = students.map((value) => {
+// //   return {
+// //     ...value,
+// //     totalScore: value.score.task1 + value.score.task,
+// //   };
+// // });
+
+// console.log(students, studentsWithTotal);
+
+// const student = {
+//   name: 'Valera',
+//   email: 'valera1991@gmail.com',
+//   score: {
+//     task1: 90,
+//     task: 50,
+//   },
+// };
+
+// const students = [student, student, student];
+// students.forEach((value) => {
+//   value.totalScore = value.score.task1 + value.score.task;
+// });
+
+// console.log(students);
